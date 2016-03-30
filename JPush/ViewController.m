@@ -23,7 +23,7 @@
 
 - (IBAction)btnClick {
     
-    //获取极光推送注册号
+    //获取极光推送注册号 ！！！
     NSString *str= [JPUSHService  registrationID];
     
     NSLog(@"%@",str);
